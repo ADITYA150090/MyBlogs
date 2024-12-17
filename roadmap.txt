@@ -1,0 +1,54 @@
+src/
+├── api/
+│   └── index.js            # API functions and HTTP requests
+├── assets/                 # Images, fonts, and other static assets
+│   └── images/
+│       └── logo.png
+├── components/             # Reusable UI components
+│   ├── Navbar/
+│   │   ├── Navbar.js
+│   │   └── Navbar.module.css
+│   ├── Footer/
+│   │   ├── Footer.js
+│   │   └── Footer.module.css
+│   ├── PostCard/
+│   │   ├── PostCard.js
+│   │   └── PostCard.module.css
+│   └── Loader/
+│       ├── Loader.js
+│       └── Loader.module.css
+├── features/               # Blog-specific, stateful components
+│   ├── Post/
+│   │   ├── Post.js
+│   │   ├── Post.module.css
+│   │   └── comments/
+│   │       ├── Comment.js
+│   │       └── Comment.module.css
+│   └── PostList/
+│       ├── PostList.js
+│       └── PostList.module.css
+├── hooks/                  # Custom hooks for reusable logic
+│   └── useFetchPosts.js
+├── pages/                  # Full-page components for routing
+│   ├── Home/
+│   │   ├── Home.js
+│   │   └── Home.module.css
+│   ├── CreatePost/
+│   │   ├── CreatePost.js
+│   │   └── CreatePost.module.css
+│   ├── PostDetails/
+│   │   ├── PostDetails.js
+│   │   └── PostDetails.module.css
+│   └── Profile/
+│       ├── Profile.js
+│       └── Profile.module.css
+├── services/               # Utility functions and helper services
+│   └── authService.js
+├── state/                  # Redux (or other state management) store
+│   ├── index.js
+│   ├── postsSlice.js
+│   └── authSlice.js
+├── App.js                  # Main App component
+├── App.css                 # Global styles
+├── index.js                # React DOM rendering entry point
+└── routes.js               # Route definitions and configurations
